@@ -1,4 +1,4 @@
-package com.leo.demo;
+package com.leo.base;
 
 public class Main {
 
