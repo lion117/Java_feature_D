@@ -11,6 +11,10 @@ public class DynParaTemplate {
         for (T t : args) {
             System.out.println(t);
         }
+
+        System.out.println("dynamic size : "+ args.length);
+
+
     }
     public static <T>  T getData(T t_data){
         System.out.println("content"+ t_data);
@@ -18,8 +22,8 @@ public class DynParaTemplate {
     }
     public static void main(String[] args) {
         out("findingsea", 123, 11.11, true);
-        System.out.println(DynParaTemplate.getData(45));
-        System.out.println(DynParaTemplate.getData("test"));
-        System.out.println(DynParaTemplate.getData(45.254));
+//        System.out.println(DynParaTemplate.getData(45));
+//        System.out.println(DynParaTemplate.getData("test"));
+//        System.out.println(DynParaTemplate.getData(45.254));
     }
 }

@@ -11,6 +11,7 @@ package com.leo.base.feature.template;
 * 4 接口泛型：采用类似类泛型的方式实现
 * 5 方法泛型：
 * 7 可变参泛型实现
+* 8 ? 通配符限制泛型： ？ 通过占位符的性质 和 extend super 限制泛型范围
 *
 *
 *
